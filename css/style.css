@@ -128,11 +128,7 @@ input[type=checkbox] {
     position: absolute;
     left: 0;
     bottom: 0px;
-}
-
-input[type="checkbox"]:not(:checked) + .form__checkbox-label:before {
-    background-color: none;
-    outline: solid 2px rgba(191, 185, 204, 0.54);
+    background-color: #23ae92;
 }
 
 input[type=checkbox]:checked + .form__checkbox-label:before  {
@@ -141,7 +137,6 @@ input[type=checkbox]:checked + .form__checkbox-label:before  {
 	color: #f3f3f3;
 	text-align: center;
     line-height: 16px;
-    background-color: #23ae92;
 }
 
 .form__input-submit {
